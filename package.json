@@ -1,0 +1,46 @@
+{
+  "name": "certlife",
+  "version": "0.0.1",
+  "description": "Check TLS/SSL certificate expiry dates from command line or programmatically",
+  "main": "lib/index.js",
+  "bin": {
+    "certlife": "bin/certlife.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run lint",
+    "lint": "echo \"Linting not configured yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melvincarvalho/certlife.git"
+  },
+  "keywords": [
+    "certificate",
+    "ssl",
+    "tls",
+    "cert",
+    "expiry",
+    "letsencrypt",
+    "security",
+    "monitoring",
+    "cli",
+    "certificate-checker"
+  ],
+  "author": "Melvin Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melvincarvalho/certlife/issues"
+  },
+  "homepage": "https://github.com/melvincarvalho/certlife#readme",
+  "files": [
+    "lib/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ]
+}
