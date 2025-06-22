@@ -1,6 +1,6 @@
 {
   "name": "certlife",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check TLS/SSL certificate expiry dates from command line or programmatically",
   "main": "lib/index.js",
   "bin": {

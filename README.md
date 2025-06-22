@@ -310,7 +310,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Changelog
 
-### 1.0.0
+### 0.0.2
 
 - Initial release
 - CLI tool with multiple output formats
